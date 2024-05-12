@@ -7,7 +7,7 @@ def fahrenheit_to_celsius(fahrenheit):
     except OverflowError:
         print("Error: Overflow occurred during temperature conversion.")
 
-# Example usage:
+
 try:
     fahrenheit = float(input("Please enter the temperature in Fahrenheit: "))
     celsius = fahrenheit_to_celsius(fahrenheit)
