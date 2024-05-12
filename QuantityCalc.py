@@ -12,7 +12,6 @@ def calculate_adjustment_factor():
         except ArithmeticError:
             print("Error: Arithmetic error occurred during calculation.")
 
-# Example usage:
 adjustment_factor = calculate_adjustment_factor()
 if adjustment_factor is not None:
     print("Adjustment factor:", adjustment_factor)
